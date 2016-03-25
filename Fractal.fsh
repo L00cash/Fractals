@@ -1,5 +1,5 @@
 void main() {
-#define iterations 256
+#define iterations 1024
     
     vec2 position = v_tex_coord; // gets the location of the current pixel in the intervals [0..1] [0..1]
     vec3 color = vec3(0.0,0.0,0.0); // initialize color to black
