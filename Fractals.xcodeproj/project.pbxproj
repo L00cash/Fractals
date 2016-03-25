@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		89001B051CA54BEB00627D4D /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		89001B061CA54C0A00627D4D /* Fractal.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Fractal.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		89001AFE1CA54BD600627D4D = {
 			isa = PBXGroup;
 			children = (
+				89001B061CA54C0A00627D4D /* Fractal.fsh */,
+				89001B051CA54BEB00627D4D /* MyScene.sks */,
 			);
 			sourceTree = "<group>";
 		};
